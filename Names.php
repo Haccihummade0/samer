@@ -1,4 +1,5 @@
 <?php
+require "simple_html_dom.php";
 for ($i=0; $i < 16; $i++) { 
 $arrayName = array("حسن","محمد","علي","احمد","خالد","ياسر","جاسم","خضر","خالد","سماعين","بسام","ابراهيم","عبود","عزيز","زهير","محمود",);
 $url = "http://www.123.com/login?username=".$arrayName[array_rand($arrayName)];
