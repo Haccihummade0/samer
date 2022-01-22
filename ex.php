@@ -14,9 +14,9 @@ $url = "http://www.".$a.".com/login?username=".$rand;
 $html = file_get_html($url);
 $new = $html->find("div.alert3");
 if ($new) {
-    echo "false"."<br>";
+    echo "<p style='color:red'>false</p>"."\n";
     echo $url;
-    echo "<br>";
+    echo "\n";
 }else{
 echo "done";
 }
